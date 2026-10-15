@@ -4,7 +4,7 @@
 
 An unofficial, simplified Android edition adapted from the discontinued Mobi Fitness app, with no login required. AI tools were used throughout the adaptation and packaging. This repository shares APKs without source code; updated versions may follow.
 
-Original app: **Mobi Fitness 4.5.16.1**. Feature baseline: the previous offline adaptation v2.1. LinkMobi uses its own version numbering.
+Original app: **Mobi Fitness 4.5.16.1**. LinkMobi uses its own version numbering.
 
 ## Download
 
@@ -26,6 +26,18 @@ SHA-256:
 - Selectable elliptical metrics and smart resistance, depending on equipment support.
 
 Original cloud courses, online races, social features, cloud history, and firmware downloads are not restored. Paid content is not unlocked. Emulator checks have been completed; physical equipment and devices using 16 KB memory pages still need testing.
+
+## Screenshots
+
+Captured on an Android emulator with simulated workout data.
+
+| Home | Free workout | Workout history |
+| :---: | :---: | :---: |
+| <img src="./assets/screenshots/home.png" alt="LinkMobi home screen" width="240"> | <img src="./assets/screenshots/workout.png" alt="LinkMobi free workout" width="240"> | <img src="./assets/screenshots/history.png" alt="LinkMobi workout history" width="240"> |
+
+Landscape workout:
+
+<img src="./assets/screenshots/workout-landscape.png" alt="LinkMobi landscape workout" width="760">
 
 ## Installation and use
 

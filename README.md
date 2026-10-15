@@ -4,7 +4,7 @@
 
 基于已停服的莫比健身 Android App 整理的非官方免登录简洁版，改造与打包全程使用 AI 完成。本仓库仅分享安装包，不含源代码，后续可能更新迭代版本。
 
-原 App 版本：**莫比健身 4.5.16.1**；功能基线：此前离线改造 v2.1。LinkMobi 使用独立版本号。
+原 App 版本：**莫比健身 4.5.16.1**。LinkMobi 使用独立版本号。
 
 ## 下载
 
@@ -26,6 +26,18 @@ SHA-256：
 - 椭圆机数据显示选择及智能阻力，具体能力取决于器材支持。
 
 不恢复原厂云课程、在线比赛、社交、云端记录和固件下载，不解锁付费内容。已做模拟器验证；真实器材及 16 KB 内存页设备的兼容性仍待验证。
+
+## 项目截图
+
+截图来自 Android 模拟器，训练数据为模拟数据。
+
+| 首页 | 自由训练 | 训练记录 |
+| :---: | :---: | :---: |
+| <img src="./assets/screenshots/home.png" alt="LinkMobi 首页" width="240"> | <img src="./assets/screenshots/workout.png" alt="LinkMobi 自由训练" width="240"> | <img src="./assets/screenshots/history.png" alt="LinkMobi 训练记录" width="240"> |
+
+横屏训练：
+
+<img src="./assets/screenshots/workout-landscape.png" alt="LinkMobi 横屏训练" width="760">
 
 ## 安装与使用
 
