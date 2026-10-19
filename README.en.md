@@ -15,14 +15,14 @@ Version `0.0.2` · About 92.7 MiB · Android 8.0 or later · App language: Simpl
 SHA-256:
 
 ```text
-e945f37fba98f451cd17d268d174d1475d28ab06563be3678179a0a3251c7549
+b0635c295b28c7d3b1a963a6170247b726d0208818224e3ae2fdcb7a1a372386
 ```
 
 ## New in 0.0.2: workout overlay
 
 View workout data while using other apps, and adjust resistance, speed, or incline when supported by your equipment.
 
-- **Uses little screen space:** appears only at the top center, with a width that follows its content. The translucent black capsule has green accents and fully rounded ends. It leaves just 4dp of extra space below the status bar or cutout, suits landscape use, and also supports portrait, phones, and tablets.
+- **Uses little screen space:** appears only at the top center, with a width that follows its content. The translucent black capsule has green accents and fully rounded ends. It sits directly below the status bar or cutout safe area without an extra top gap. On Android 11 or later, it moves higher when a fullscreen app hides the status bar. It suits landscape use and also supports portrait, phones, and tablets.
 - **Key metrics stay visible:** the collapsed single row shows duration, distance, heart rate, and an equipment metric. Treadmills show speed, equipment with resistance feedback shows the resistance level, and other equipment shows calories. Missing values appear as “—”.
 - **Expand for controls:** tap the bar to reveal supported resistance, speed, and incline controls, plus return, collapse, and dismiss actions. Smart resistance mode hides manual resistance buttons. Disconnection marks the data as no longer updating and disables controls.
 - **Appears automatically:** leave the workout screen during an active session to show the overlay; return to hide it, or finish the workout to remove it. It remains available while paused. Each session starts collapsed, and dismissing applies only to that session. Pause, resume, and finish remain on the workout screen.
@@ -71,6 +71,7 @@ Version 0.0.2 passed emulator checks for overlay permissions, background updates
 
 ## Release history
 
+- `0.0.2` rebuild · 2026-10-19: Moved the overlay higher by removing the extra top gap and following fullscreen status bar visibility on Android 11 or later. The version number is unchanged.
 - `0.0.2` · 2026-10-18: Added the top workout overlay with data across apps, persistent heart rate, collapse and expand, and equipment controls. Introduced a green capsule sized to its content and a single enable setting. Updated screenshots and instructions, retaining the existing signing certificate for upgrades.
 - `0.0.1` · 2026-10-15: First public LinkMobi release with consistent app and APK naming.
 
